@@ -1,0 +1,123 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#consoles",
+      "menu-item#games"
+    ]
+  },
+    "menu-item#consoles":{
+    "props": {
+      "id": "menu-item-category-consoles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/games-e-consoles/consoles",
+        "noFollow": false,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-games-e-consoles-consoles"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-games-e-consoles-consoles": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-games-e-consoles-consoles"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-games-e-consoles-consoles": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#category-games-e-consoles-consoles-playstation",
+      "menu-item#category-games-e-consoles-consoles-xbox",
+      "menu-item#category-games-e-consoles-consoles-nintendo",
+      "menu-item#category-games-e-consoles-consoles-old-school"
+    ]
+  },
+  "menu-item#category-games-e-consoles-consoles-playstation": {
+    "props": {
+      "id": "menu-item#category-games-e-consoles-consoles-playstation",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/games-e-consoles/consoles/playstation",
+        "noFollow": false,
+        "tagTitle": "Playstation",
+        "text": "Playstation"
+      }
+    }
+  },
+  "menu-item#category-games-e-consoles-consoles-xbox": {
+    "props": {
+      "id": "menu-item#category-games-e-consoles-consoles-xbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/games-e-consoles/consoles/xbox",
+        "noFollow": false,
+        "tagTitle": "Xbox",
+        "text": "Xbox"
+      }
+    }
+  },
+  "menu-item#category-games-e-consoles-consoles-nintendo": {
+    "props": {
+      "id": "menu-item#category-games-e-consoles-consoles-nintendo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/games-e-consoles/consoles/nintendo",
+        "noFollow": false,
+        "tagTitle": "Nintendo",
+        "text": "Nintendo"
+      }
+    }
+    },
+    "menu-item#category-games-e-consoles-consoles-old-school": {
+      "props": {
+        "id": "menu-item#category-games-e-consoles-consoles-old-school",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/games-e-consoles/consoles/old-school",
+          "noFollow": false,
+          "tagTitle": "Old School",
+          "text": "Old School"
+        }
+      }
+      },
+      "menu-item#games": {
+        "props": {
+          "id": "menu-item#category-games-e-consoles-games",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/games-e-consoles/jogos",
+            "noFollow": false,
+            "tagTitle": "Jogos",
+            "text": "Jogos"
+          }
+        }
+}
+}

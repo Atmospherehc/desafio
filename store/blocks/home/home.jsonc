@@ -1,0 +1,104 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "info-card#home",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.imgur.com/fHxJsjo.png",
+          "mobileImage": "https://i.imgur.com/E76HghR.png"
+        },
+        {
+          "image": "https://i.imgur.com/i5C6GEG.png",
+          "mobileImage": "https://imgur.com/SiflrCe.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Games Destaques",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "138"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://imgur.com/txNXEek.png",
+      "headline": "Lançamento Exclusivo",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/call-of-duty--modern-warfare-ii/p",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**Ganhar 1 ponto para cada real gasto?\nNa Atmosphere Squad 3 é possível**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Saiba mais em**\nwww.hiringcoders.com.br",
+      "blockClass": "link"
+    }
+  }
+}

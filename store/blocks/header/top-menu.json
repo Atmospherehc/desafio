@@ -1,0 +1,42 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#casa-atmosphere"
+    ]
+  },
+  "menu-item#casa-atmosphere": {
+    "props": {
+      "id": "menu-casa-atmosphere",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.instagram.com/p/CfzJP4KM5Ju/",
+        "noFollow": false,
+        "tagTitle": "Conheça a Casa Atmosphere",
+        "text": "Conheça a Casa Atmosphere"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#hc-website"
+    ]
+  },
+  "menu-item#hc-website": {
+    "props": {
+      "id": "menu-item-hc-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://www.hiringcoders.com.br",
+        "noFollow": false,
+        "tagTitle": "Conheça o Hiring Coders",
+        "text": "Conheça o hiringcoders.com.br"
+      }
+    }
+  }
+}
