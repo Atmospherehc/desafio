@@ -24,9 +24,5 @@ app.get("*", (req, res) => {
   res.json({ error: "Not Found" });
 });
 
-const HOSTNAME = process.env.HOSTNAME || "localhost";
 const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, HOSTNAME, () =>
-  console.log(`🚀 Server listening on ${HOSTNAME}:${PORT}...`)
-);
+app.listen(PORT, () => console.log(`🚀 Server listening on port ${PORT}...`));
