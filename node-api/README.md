@@ -2,6 +2,8 @@
 
 API responsável por obter ou debitar os pontos de recompensa de um usuário a partir do e-mail.
 
+Não é necessário executar localmente, mas se for o caso, adicione um arquivo .env dentro da pasta "node-api" com as variáveis "VTEX_APPKEY" e "VTEX_APPTOKEN" e seus respectivos valores para a autenticação.
+
 ## Endpoints:
 
 URL: https://hc3-node-api.herokuapp.com/rewards

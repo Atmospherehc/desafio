@@ -48,10 +48,13 @@ rewardsRouter.get("/", async (req, res) => {
 // Atualizar pontos de recompensa no Master Data da VTEX
 rewardsRouter.post("/", async (req, res) => {
   const { email, pointsSpent } = req.body;
-  const [{ id, dpoints }] = await getPoints(email);
-  const currentPoints = dpoints || 0;
+  const data = await getPoints(email);
 
-  let balance = currentPoints - pointsSpent;
+  if (data.length === 0) throw Error("User not found");
+
+  const [{ id, dpoints }] = data;
+  const currentPoints = dpoints || 0;
+  const balance = currentPoints - pointsSpent;
 
   const newData = { dpoints: balance < 0 ? 0 : balance };
   const response = await spendPoints(id, newData);
