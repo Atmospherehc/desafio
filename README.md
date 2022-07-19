@@ -75,12 +75,10 @@ Juntando todas partes e validando o fluxo completo desde a experiência do usuá
 - Repositório Github do grupo (Envio até dia 20/07/2022 às 23:59).
 Você receberá a orientação de onde enviar no canal do seu grupo no slack!
 
-## Membros
+## Membros Ativos
 
 - [Alexandre Moreira](https://github.com/devalexxharper)
-- [Fabiana Barreto](https://github.com/fabifelicia)
-- [George Maia](https://github.com/georgemaia/)
-- [Luis Gabriel Fidélis](https://github.com/devluga)
+- [Mateus Toledo](https://github.com/mateusvtoledo)
 - [Luiz Otávio Lima Falcão](https://github.com/llfalcao)
 - [Affonso Kopmann](https://github.com/affonsok)
 
