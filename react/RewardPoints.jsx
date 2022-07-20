@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./styles.css";
 
 const RewardPoints = () => {
   const [points, setPoints] = useState(0);
@@ -21,7 +22,7 @@ const RewardPoints = () => {
     getCurrentUser();
   }, []);
 
-  return <p>{points} pontos</p>;
+  return <p className="pontos">{points} pontos</p>;
 };
 
 export default RewardPoints;
