@@ -59,6 +59,9 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
+      "flex-layout.col#spacer",
+      "reward-points",
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ]
@@ -74,6 +77,11 @@
       "verticalAlign": "middle"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "search-bar"
+    }
   },
   "logo#desktop": {
     "props": {
@@ -110,10 +118,7 @@
   },
 
   "menu#drawer": {
-    "children": [
-      "menu-item#consoles",
-      "menu-item#games"
-    ],
+    "children": ["menu-item#consoles", "menu-item#games"],
     "props": {
       "orientation": "vertical"
     }
