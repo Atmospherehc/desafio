@@ -11,14 +11,15 @@ URL: https://hc3-node-api.herokuapp.com/rewards
 - **GET /rewards**
 
 ```json
-body (json):
-{
-  "email": "johndoe@company.com"
-}
+Exemplos:
+
+query:
+/rewards?email="johndoe@company.com"
+
 
 response:
 {
-  "id": "a63a83f0-bbfd-4026-9ff4-c29687a9106b",
+  "id": "a63a83f0-bbfd-4026-9ff4-c29687a9106b", // ID do usuário
   "rewardPoints": 150
 }
 ```

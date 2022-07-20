@@ -5,5 +5,27 @@
   margin-block-start: 10px;
   text-align: right;
   color: brown;
+  display: flex;
+  align-items: center;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingIcon img {
+  animation: spin 1s linear infinite;
+  width: 24px;
+  height: 24px;
+}

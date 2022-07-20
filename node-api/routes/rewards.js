@@ -33,7 +33,7 @@ const spendPoints = async (id, points) => {
 
 // Obter pontos de recompensa de um usuário específico (via clientProfileId)
 rewardsRouter.get("/", async (req, res) => {
-  const { email } = req.body;
+  const { email } = req.query;
   const data = await getPoints(email);
   if (data.length === 0) throw Error("User not found");
 
@@ -49,7 +49,6 @@ rewardsRouter.get("/", async (req, res) => {
 rewardsRouter.post("/", async (req, res) => {
   const { email, pointsSpent } = req.body;
   const data = await getPoints(email);
-
   if (data.length === 0) throw Error("User not found");
 
   const [{ id, dpoints }] = data;
