@@ -22,7 +22,7 @@ const RewardPoints = () => {
     getCurrentUser();
   }, []);
 
-  return <p className="pontos">{points} pontos</p>;
+  return <p className="pontos"> {points} pontos teste teste </p>;
 };
 
 export default RewardPoints;
