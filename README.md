@@ -79,6 +79,7 @@ Você receberá a orientação de onde enviar no canal do seu grupo no slack!
 
 - [Alexandre Moreira](https://github.com/devalexxharper)
 - [Mateus Toledo](https://github.com/mateusvtoledo)
+- [Luis Gabriel Fidélis] (https://github.com/devluga)
 - [Luiz Otávio Lima Falcão](https://github.com/llfalcao)
 - [Affonso Kopmann](https://github.com/affonsok)
 
