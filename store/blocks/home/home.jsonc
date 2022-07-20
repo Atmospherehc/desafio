@@ -8,8 +8,7 @@
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#link"
     ]
   },
 
@@ -20,12 +19,12 @@
       "preload": true,
       "images": [
         {
-          "image": "https://i.imgur.com/fHxJsjo.png",
-          "mobileImage": "https://i.imgur.com/E76HghR.png"
+          "image": "#",
+          "mobileImage": "#"
         },
         {
-          "image": "https://i.imgur.com/i5C6GEG.png",
-          "mobileImage": "https://imgur.com/SiflrCe.png"
+          "image": "#",
+          "mobileImage": "#"
         }
       ]
     }
@@ -79,7 +78,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://imgur.com/txNXEek.png",
+      "imageUrl": "#",
       "headline": "Lançamento Exclusivo",
       "callToActionText": "Confira",
       "callToActionUrl": "/call-of-duty--modern-warfare-ii/p",
