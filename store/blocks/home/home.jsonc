@@ -7,7 +7,8 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
       "rich-text#link"
     ]
   },
@@ -72,7 +73,35 @@
       "blockClass": "shelf"
     }
   },
-
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Consoles Incríveis",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "143"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -84,13 +113,6 @@
       "callToActionUrl": "/call-of-duty--modern-warfare-ii/p",
       "blockClass": "info-card-home",
       "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**Ganhar 1 ponto para cada real gasto?\nNa Atmosphere Squad 3 é possível**",
-      "blockClass": "question"
     }
   },
 
