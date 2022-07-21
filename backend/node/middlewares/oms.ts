@@ -29,7 +29,7 @@ const handleOrders = async (ctx: Context, next: () => Promise<any>) => {
       awardedPoints: calculateRewardPoints(totals),
     };
 
-    // Procura pelo usuário no Master Data e obtém a quantiade de pontos de recompensa atual
+    // Procura pelo usuário no Master Data e obtém a quantidade de pontos de recompensa atual
     const data: Data[] = await ctx.clients.masterdata.searchDocuments({
       dataEntity: "CL",
       where: `document=${user.document}`,
