@@ -26,9 +26,9 @@ O backend foi dividido entre um app de serviço, que através do [Order Hook](ht
 
 Documentação abaixo:
 
-[Order Hook]('./backend/docs/README.md')
+[Order Hook](./backend/docs/README.md)
 
-[REST API]('./node-api/README.md')
+[REST API](./node-api/README.md)
 
 ### 
 
