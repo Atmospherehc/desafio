@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import style from "./styles.css";
 
 const POINTS_API = "https://hc3-node-api.herokuapp.com/rewards";
