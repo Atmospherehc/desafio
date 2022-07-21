@@ -9,10 +9,16 @@
 4. `$ vtex link`
 5. Acesse a loja: https://squad3--atmosphere.myvtex.com
 
-## Screenshots
+## Apresentação
 https://github.com/squad3atmos/desafio/blob/main/Squad3%20-%20Atmosphere%20-%20Apresenta%C3%A7%C3%A3o.pdf
+
+
+## Screenshots
 ### Home
+https://github.com/squad3atmos/desafio/blob/main/Squad3-Home.png
+
 ### Página do Produto
+https://github.com/squad3atmos/desafio/blob/main/Squad3-Produto.png
 
 ## Backend
 
