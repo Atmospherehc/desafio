@@ -15,10 +15,10 @@ https://github.com/squad3atmos/desafio/blob/main/Squad3%20-%20Atmosphere%20-%20A
 
 ## Screenshots
 ### Home
-https://github.com/squad3atmos/desafio/blob/main/Squad3-Home.png
+![Home](https://github.com/squad3atmos/desafio/blob/main/Squad3-Home.png)
 
 ### Página do Produto
-https://github.com/squad3atmos/desafio/blob/main/Squad3-Produto.png
+![PDP](https://github.com/squad3atmos/desafio/blob/main/Squad3-Produto.png)
 
 ## Backend
 
