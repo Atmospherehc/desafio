@@ -14,7 +14,7 @@ const headers = {
 const getPoints = async (email) => {
   const options = {
     method: "GET",
-    url: `${baseUrl}/api/dataentities/CL/search?email=${email}&_fields=id,dpoints`,
+    url: `${baseUrl}/api/dataentities/CL/search?email=${email}&_fields=id,sPoints`,
     headers,
   };
   const response = await axios.request(options);
@@ -37,11 +37,11 @@ rewardsRouter.get("/", async (req, res) => {
   const data = await getPoints(email);
   if (data.length === 0) throw Error("User not found");
 
-  const [{ id, dpoints }] = data;
+  const [{ id, sPoints }] = data;
 
   res.json({
     id,
-    rewardPoints: dpoints || 0,
+    rewardPoints: sPoints || 0,
   });
 });
 
@@ -51,11 +51,11 @@ rewardsRouter.post("/", async (req, res) => {
   const data = await getPoints(email);
   if (data.length === 0) throw Error("User not found");
 
-  const [{ id, dpoints }] = data;
-  const currentPoints = dpoints || 0;
+  const [{ id, sPoints }] = data;
+  const currentPoints = sPoints || 0;
   const balance = currentPoints - pointsSpent;
 
-  const newData = { dpoints: balance < 0 ? 0 : balance };
+  const newData = { sPoints: balance < 0 ? 0 : balance };
   const response = await spendPoints(id, newData);
   if (response.status !== 204) throw Error();
 
