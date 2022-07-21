@@ -1,5 +1,31 @@
 # Hiring Coders - Casa Atmosphere - Grupo 03
 
+## Frontend - Acessando a loja
+
+- Clone o repositório localmente, abra o terminal/console na pasta raíz e siga os comandos abaixo:
+1. `$ vtex login atmosphere`
+2. `$ vtex use squad3`
+3. `$ vtex whoami` (confirme que está no workspace correto)
+4. `$ vtex link`
+5. Acesse a loja: https://squad3--atmosphere.myvtex.com
+
+## Screenshots
+### Home
+
+### Página do Produto
+
+## Backend
+
+O backend foi dividido entre um app de serviço, que através do [Order Hook](https://developers.vtex.com/vtex-rest-api/docs/orders-feed#hook) da VTEX obtém novos pedidos aprovados e adiciona os devidos pontos de recompensa ao usuário, e um servidor desenvolvido em Node/Express, responsável por obter ou debitar pontos de recompensa de um usuário, mantendo os dados armazenados no prório Master Data da VTEX.
+
+Documentação abaixo:
+
+[Order Hook]('./backend/docs/README.md')
+
+[REST API]('./node-api/README.md')
+
+### 
+
 ## HEY, PRONTOS PARA O DESAFIO DA SEMIFINAL?
 
 O objetivo deste desafio é calcular o gasto de um consumidor para pontos.
