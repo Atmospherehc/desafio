@@ -75,6 +75,10 @@ Juntando todas partes e validando o fluxo completo desde a experiência do usuá
 - Repositório Github do grupo (Envio até dia 20/07/2022 às 23:59).
 Você receberá a orientação de onde enviar no canal do seu grupo no slack!
 
+## ARQUIVOS COMPARTILHADOS  
+
+- Conferir arquivos e páginas que são compartilhadas por toda a casa Atmosphere.
+
 ## Membros Ativos
 
 - [Alexandre Moreira](https://github.com/devalexxharper)
