@@ -78,6 +78,7 @@ Você receberá a orientação de onde enviar no canal do seu grupo no slack!
 ## ARQUIVOS COMPARTILHADOS  
 
 - Conferir arquivos e páginas que são compartilhadas por toda a casa Atmosphere.
+- Devido a problemas de conflitos de uso de campos (outro grupo usa a mesma info e atualiza para null) foi refeito o sistema que já estava pronto no ultimo dia.
 
 ## Membros Ativos
 
