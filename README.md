@@ -10,8 +10,8 @@
 5. Acesse a loja: https://squad3--atmosphere.myvtex.com
 
 ## Screenshots
+https://github.com/squad3atmos/desafio/blob/main/Squad3%20-%20Atmosphere%20-%20Apresenta%C3%A7%C3%A3o.pdf
 ### Home
-
 ### Página do Produto
 
 ## Backend
